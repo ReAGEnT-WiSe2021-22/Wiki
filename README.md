@@ -4,7 +4,7 @@ Realtime Analysis of German Election noting tweets
 
 Collects, sorts, analyzes and presents tweets from german politicians regarding the election 2021. 
 
-![sequence_diagram](https://github.com/ReAGEnT-HTW-Berlin/Wiki/blob/main/ReAGEnT_sequence_diagram_v1.1.png)
+![sequence_diagram](https://raw.githubusercontent.com/ReAGEnT-WiSe2021-22/Wiki/main/ReAGEnT_sequence_diagram_v1.1.png)
 
 ## [API Wrapper](https://github.com/ReAGEnT-HTW-Berlin/ReAGEnT-API-Wrapper)
 The API Wrapper is responsible for collecting tweets from the Twitter API v2 endpoint using Spark Structured Streaming. The data is sorted, analyzed and saved to Mongo DB according to rules set in main class.
