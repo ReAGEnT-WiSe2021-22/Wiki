@@ -16,6 +16,20 @@ The API Wrapper is responsible for collecting tweets from the Twitter API v2 end
 
 Written in Scala.
 
+## [Twint API Wrapper](https://github.com/ReAGEnT-WiSe2021-22/Twint-API)
+Historical data from Twitter is loaded with the help of the inofficial Twint API
+
+- [Twint API GitHub](https://github.com/twintproject/twint)
+
+Written in Python.
+
+## [SparkML](https://github.com/ReAGEnT-WiSe2021-22/ReAGEnT-SparkNLP-SparkML)
+Raw data from the Mongo DB is loaded and used to train a model with the help of the Spark Machine Learning library (MLlib).
+
+- [MLlib Guide](https://spark.apache.org/docs/latest/ml-guide.html)
+
+Written in Scala.
+
 ## [Spark (Backend)](https://github.com/ReAGEnT-HTW-Berlin/ReAGEnT-Spark)
 This part is responsible for taking the raw information from the Mongo DB and computing the information for the frontend. Thereafter saving it again in the Mongo DB.
 
