@@ -45,10 +45,35 @@ Routes Mongo DB content to the frontend.
 
 Written in Scala.
 
-## [Frontend](https://github.com/ReAGEnT-HTW-Berlin/ReAgentFrontEnd)
+## [Frontend v1](https://github.com/ReAGEnT-HTW-Berlin/ReAgentFrontEnd)
 Web representation of analyzed data.
 
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Chart.js](https://www.chartjs.org/docs/latest/)
 
 Written in JavaScript.
+
+## [Frontend v2](https://github.com/ReAGEnT-WiSe2021-22/frontend-v2)
+Web representation of analyzed data. We are using the micro front end architecture, this project / repository acts as the container project that "*contains*" and loads the individual micro frontends. This container app is built with [React](https://reactjs.org/), and it loads the micro front end with two different approaches:
+- Loading the bundled JS file from the local folder (`src/wc`)
+- Loading the bundled JS file from a remote source (in this case, from site hosted on Github Pages)
+
+All the individual micro front ends are bundled into a single JS file and converted into a web component, so the project could be framework agnostic.
+
+Please take a look into our [Proof of Concept](https://github.com/LouisAndrew/poc-microfrontend/edit/main/README.md) project for a more simplified example.
+
+Dependencies that we used are:
+- [Direflow](https://direflow.io/)
+- [Reactivesearch](https://opensource.appbase.io/reactivesearch/)
+- [Tailwindcss v2](https://v2.tailwindcss.com/)
+- [craco-swc](https://github.com/pradel/create-react-app-swc/blob/main/packages/craco-swc/README.md)
+- [Material UI](https://mui.com/)
+- [Miragejs](https://miragejs.com/)
+- [React DnD](https://react-dnd.github.io/react-dnd/about)
+- [random-ext](https://github.com/bkumar2/random-ext)
+- [faker](https://fakerjs.dev/)
+- [ESLint](https://eslint.org/)
+- [Recharts](https://recharts.org/en-US/)
+- [axios](https://axios-http.com/docs/intro)
+
+Written in TypeScript.
