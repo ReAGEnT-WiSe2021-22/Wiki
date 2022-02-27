@@ -77,3 +77,15 @@ Dependencies that we used are:
 - [axios](https://axios-http.com/docs/intro)
 
 Written in TypeScript.
+
+## [Search Engine (Kafka-Elasticsearch)](https://github.com/ReAGEnT-WiSe2021-22/KafkaElasticSearch)
+Engine to search for tweets by keyword and filter them by party.
+
+Elasticsearch provides the tweets as well as the search functionality.
+An Apache Kafka Producer extracts tweets via the Twitter Api in real time and inserts them into the Elasticsearch dataset.
+
+- [Elasticsearch](https://www.elastic.co/)
+- [Apache Kafka](https://kafka.apache.org/)
+
+Written in Java.
+
